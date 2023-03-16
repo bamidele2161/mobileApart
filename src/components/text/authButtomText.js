@@ -19,6 +19,7 @@ const Container = styled.View({
   justifyContent: 'center',
   display: 'flex',
   gap: 4,
+  marginTop: 5,
 });
 const Question = styled.Text({
   fontSize: 12,
@@ -26,4 +27,5 @@ const Question = styled.Text({
 const Link = styled.Text({
   fontSize: 12,
   color: color.primaryColor,
+  marginLeft: 5,
 });

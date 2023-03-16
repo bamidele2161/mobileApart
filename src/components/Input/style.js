@@ -1,18 +1,20 @@
-import styled from "styled-components/native";
+import styled from 'styled-components/native';
 
 export const InputWrapper = styled.View`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-bottom: 20px;
 `;
 export const Container = styled.View`
-  border: ${(props) => props.border};
+  border: ${props => props.border};
   border-radius: 4px;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 12px 15px;
+  margin-top: 8px;
 `;
 export const TextInputWrapper = styled.TextInput`
   width: 80%;
