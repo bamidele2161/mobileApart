@@ -1,5 +1,5 @@
-import { StyleSheet } from "react-native";
-import { color } from "../../../color";
+import {StyleSheet} from 'react-native';
+import {color} from '../../../color';
 
 export const styles = StyleSheet.create({
   container: {
@@ -9,14 +9,14 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontSize: 28,
-    fontWeight: 600,
-    alignSelf: "center",
+    fontWeight: '600',
+    alignSelf: 'center',
     color: color.titleColor,
   },
 
   formContainer: {
     marginTop: 40,
-    display: "flex",
+    display: 'flex',
     gap: 20,
   },
 });

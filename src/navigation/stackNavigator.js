@@ -17,7 +17,7 @@ export default function StackNavigator() {
           headerShown: false,
         }}
       />
-      {/* <Stack.Screen
+      <Stack.Screen
         name="Register"
         component={Register}
         options={{
@@ -30,7 +30,7 @@ export default function StackNavigator() {
         options={{
           headerShown: false,
         }}
-      /> */}
+      />
       {/* <Stack.Screen name="Home" component={BottomTabNavigator} options={{
                 headerShown: false,
             }}/> */}
